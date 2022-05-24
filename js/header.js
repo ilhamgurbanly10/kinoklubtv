@@ -139,9 +139,9 @@ const signInForm = () => {
 	
 	var emailIsEmpty = true, passwordIsEmpty = true;
 
-	disableSubmit = () => { submit.setAttribute('disabled', ''); }
+	const disableSubmit = () => { submit.setAttribute('disabled', ''); }
 
-	enableSubmit = () => { submit.removeAttribute('disabled'); }
+	const enableSubmit = () => { submit.removeAttribute('disabled'); }
 
 	function checkEmail() {
 
@@ -196,9 +196,9 @@ const signUpForm = () => {
 	
 	var emailIsEmpty = true, passwordIsEmpty = true;
 
-	disableSubmit = () => { submit.setAttribute('disabled', ''); }
+	const disableSubmit = () => { submit.setAttribute('disabled', ''); }
 
-	enableSubmit = () => { submit.removeAttribute('disabled'); }
+	const enableSubmit = () => { submit.removeAttribute('disabled'); }
 
 	function checkEmail() {
 
